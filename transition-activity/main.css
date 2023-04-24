@@ -9,10 +9,33 @@ body  {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.caption div{
+  position: absolute;
+  top: 93%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-right: 1em;
+  padding-left: 1em;
+  color: white ;
+}
+
+.caption:hover div{
+  transform: translateY(-1300%);
+  transition: transform 1s ease-in;
+}
+
+.caption h1{
+  text-align: left;
 }
 
 img {
-  width: 80%;
+  min-width: 80%;
+  max-width: 100%;
 }
 
 button {
